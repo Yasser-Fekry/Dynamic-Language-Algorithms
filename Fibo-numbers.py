@@ -11,6 +11,7 @@ def fib_recursive(n):
 
 # 2) WITH DP: store every result in a list (f[i] = f[i-1] + f[i-2]).
 # Each value is calculated only once, so it is fast.
+
 def fib_dp(n):
     f = [0] * max(n + 1, 2)      # f[i] holds the i-th Fibonacci number
     f[0] = 0
